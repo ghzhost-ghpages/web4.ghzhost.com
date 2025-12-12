@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhzHost | Hyperconnected Infrastructures</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script defer src="translations.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">WEB4.0</div>
+    <nav class="menu">
+      <a data-i18n="navHome" href="index.html">Home</a>
+      <a data-i18n="navServers" href="servers.html">Servers</a>
+      <a data-i18n="navCloud" href="cloud.html">Cloud</a>
+      <a data-i18n="navSolutions" href="solutions.html">Solutions</a>
+      <a data-i18n="navPricing" href="pricing.html">Pricing</a>
+      <a data-i18n="navSupport" href="support.html">Support</a>
+    </nav>
+    <a class="btn-login" href="#" id="wallet-connect" data-i18n="btnConnect">Conectar</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div id="particlesheader" class="particles-layer" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="headline">
+          <h1 data-i18n="heroTitle">HYPERCONNECTED INFRASTRUCTURES.</h1>
+          <h2 data-i18n="heroSubtitle">GLOBAL SERVER HOSTING FOR THE NEXT ERA</h2>
+        </div>
+        <img class="hero-logo" src="https://ghzhost.com/logo.png" alt="GhzHost logo">
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-card purple">
+        <div class="icon">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="10" y="12" width="44" height="14" rx="2" stroke="currentColor" stroke-width="3" fill="none"/>
+            <rect x="10" y="26" width="44" height="14" rx="2" stroke="currentColor" stroke-width="3" fill="none"/>
+            <rect x="10" y="40" width="44" height="12" rx="2" stroke="currentColor" stroke-width="3" fill="none"/>
+            <circle cx="18" cy="19" r="2" fill="currentColor"/>
+            <circle cx="18" cy="33" r="2" fill="currentColor"/>
+            <circle cx="18" cy="46" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 data-i18n="f1Title">QUANTUM SERVERS</h3>
+        <p data-i18n="f1Desc">Thunderous latency hosting at infinite photon bandwidth.</p>
+      </div>
+      <div class="feature-card green">
+        <div class="icon">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M24 38h-6a10 10 0 1 1 6-18 12 12 0 0 1 22 8h2a8 8 0 1 1 0 16H32" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M30 46h-6l8-12h-6l10-14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 data-i18n="f2Title">NEURAL CLOUD</h3>
+        <p data-i18n="f2Desc">Deep learning data center, localized even for tiny payloads.</p>
+      </div>
+      <div class="feature-card cyan">
+        <div class="icon">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="14" y="16" width="36" height="28" rx="6" ry="6" stroke="currentColor" stroke-width="3" fill="none"/>
+            <rect x="24" y="44" width="16" height="8" rx="3" stroke="currentColor" stroke-width="3" fill="none"/>
+            <circle cx="26" cy="30" r="3" fill="currentColor"/>
+            <circle cx="38" cy="30" r="3" fill="currentColor"/>
+            <path d="M32 16V10m-10 0h20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 data-i18n="f3Title">AI OPTIMIZATION</h3>
+        <p data-i18n="f3Desc">Autonomous zero-latency load balancing built for fun.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a data-i18n="footerAbout" href="#">About Us</a>
+      <a data-i18n="footerTerms" href="#">Terms</a>
+      <a data-i18n="footerSupport" href="#">Support</a>
+    </div>
+    <div class="footer-meta">
+      <div class="footer-actions">
+        <a class="badge" href="https://ghz.world" target="_blank" rel="noreferrer">GHZ.WORLD</a>
+        <a class="badge" href="https://tvip.ghzhost.com" target="_blank" rel="noreferrer">TVIP.GHZ</a>
+        <a class="badge badge-ghost" data-modal-open="mybrian">MYBRIAN.GHZ</a>
+        <a class="badge badge-ghost" data-modal-open="friendsbook">Friendsbook</a>
+        <a class="badge" href="https://musicexclusive.hol.es" target="_blank" rel="noreferrer">musicexclusive</a>
+        <a class="badge badge-ghost" data-modal-open="ghzcraft">GhzCraft</a>
+      </div>
+      <div class="certified">
+        <img src="src/img/certified.png" alt="Certified 2150">
+      </div>
+      <div class="copyright">© 2026</div>
+    </div>
+  </footer>
+
+  <div class="chat-bubble" aria-label="Support chat">
+    <svg viewBox="0 0 64 64">
+      <path d="M12 16h40v24H22l-10 8z" fill="#00b7ff" stroke="#0091d1" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="24" cy="28" r="3" fill="#fff"/>
+      <circle cx="32" cy="28" r="3" fill="#fff"/>
+      <circle cx="40" cy="28" r="3" fill="#fff"/>
+    </svg>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.particlesJS) {
+        particlesJS('particlesheader', {
+          particles: {
+            number: { value: 150 },
+            line_linked: {
+              color: '#0099c9',
+              opacity: 1
+            },
+            size: { value: 16 },
+            shape: {
+              type: 'image',
+              image: {
+                src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><g fill="none" stroke="%23cfcfcf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="26" y="22" width="12" height="20" rx="2" ry="2" fill="%23878787" stroke="%23666666"/><rect x="18" y="16" width="8" height="14" rx="1.5" ry="1.5" fill="%23777777"/><rect x="38" y="34" width="8" height="14" rx="1.5" ry="1.5" fill="%23777777"/><path d="M22 30l6 6m8-8l6 6" stroke="%23dcdcdc"/><path d="M32 18v-6m-4 0h8" stroke="%23dcdcdc"/><circle cx="30" cy="28" r="2.2" fill="%23f0f0f0"/><circle cx="34" cy="28" r="2.2" fill="%23f0f0f0"/><path d="M26 42l-6 6m18-2l6 6" stroke="%23dcdcdc"/></g></svg>',
+                width: 48,
+                height: 48
+              }
+            },
+            move: {
+              enable: true,
+              speed: 0.65,
+              out_mode: 'out'
+            },
+            opacity: { value: 0.9 }
+          },
+          interactivity: {
+            events: {
+              onhover: { enable: false, mode: 'repulse' }
+            }
+          }
+        });
+      }
+    });
+  </script>
+  <div class="modal" id="modal-mybrian" role="dialog" aria-modal="true" aria-labelledby="modal-mybrian-title">
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="modal-mybrian-title">MYBRIAN.GHZ</h3>
+      <p>Cérebro digital para orquestrar redes sociais com IA, agendamento inteligente e respostas automáticas multicanal.</p>
+    </div>
+  </div>
+  <div class="modal" id="modal-friendsbook" role="dialog" aria-modal="true" aria-labelledby="modal-friendsbook-title">
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="modal-friendsbook-title">Friendsbook</h3>
+      <p>Rede social autônoma com IA, feeds personalizados e armazenamento dinâmico elástico por demanda.</p>
+    </div>
+  </div>
+  <div class="modal" id="modal-ghzcraft" role="dialog" aria-modal="true" aria-labelledby="modal-ghzcraft-title">
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="modal-ghzcraft-title">GhzCraft</h3>
+      <p>Servidor Minecraft otimizado por IA, com balanceamento automático, proteções inteligentes e eventos dinâmicos.</p>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const openers = document.querySelectorAll('[data-modal-open]');
+      const modals = document.querySelectorAll('.modal');
+      const closeAll = () => modals.forEach(m => m.classList.remove('show'));
+      openers.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-modal-open');
+          const modal = document.getElementById(`modal-${id}`);
+          if (modal) modal.classList.add('show');
+        });
+      });
+      document.querySelectorAll('[data-modal-close]').forEach(btn => {
+        btn.addEventListener('click', closeAll);
+      });
+      modals.forEach(m => m.addEventListener('click', e => {
+        if (e.target === m) closeAll();
+      }));
+      document.addEventListener('keyup', e => {
+        if (e.key === 'Escape') closeAll();
+      });
+    });
+  </script>
+  <script src="web3-wallet.js"></script>
+</body>
+</html>
+
